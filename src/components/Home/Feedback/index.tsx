@@ -4,20 +4,20 @@ const Feedback: React.FC = () => {
   return (
     <div
       id="feedback"
-      className="form h-[710px] bg-main bg-no-repeat flex items-center"
+      className="form h-[760px] bg-main bg-no-repeat bg-[35%] flex items-center py-[64px]"
     >
       <div className="container mx-auto md:mx-auto">
-        <div className="form-wrapper flex items-center justify-center">
+        <div className="form-wrapper flex items-center justify-center w-[100%]">
           <div
-            className="form-content w-[95%] h-[630px] bg-white rounded-[16px] py-[48px] px-[16px] 
-            text-[32px] font-bold md:px-[32px]"
+            className="form-content w-[95%] h-[100%] bg-white rounded-[16px] py-[48px] px-[16px] 
+            text-[32px] font-bold sm:px-[32px] sm:w-[100%] md:px-[32px]"
           >
             <h2 className="form-title mb-[36px] text-[20px] font-semibold sm:text-[32px] sm:font-bold sm:mb-[48px]">
               Let’s discuss your project
             </h2>
             <form action="" className="form flex flex-col">
               <div className="form-content flex flex-col gap-[24px]">
-                <div className="content-top flex justify-between gap-[24px] flex-col">
+                <div className="content-top flex justify-between gap-[24px] flex-col sm:flex-row">
                   <div className="content-top_item relative flex flex-col w-[100%]">
                     <label
                       htmlFor=""
@@ -106,9 +106,9 @@ const Feedback: React.FC = () => {
                     Tell me about your project
                   </div>
                   <textarea
-                    className="w-[100%] h-[122px] border-2 border-light-gray-color rounded-[16px] py-[13px] px-[20px] text-[16px] font-normal
+                    className="w-[100%] h-[122px] border-2 border-light-gray-color rounded-[16px] py-[13px] px-[20px] mb-[36px] text-[16px] font-normal
                     hover:border-purple-color transition ease-in-out focus:border-purple-color
-                    invalide:text-red-color mb-[36px]"
+                    invalide:text-red-color sm:mb-[48px]"
                     placeholder="Add here a general description of your idea and target aim"
                   ></textarea>
                   <button

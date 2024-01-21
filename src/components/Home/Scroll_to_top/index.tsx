@@ -12,7 +12,7 @@ const ScrollToTop: React.FC = ({}) => {
     <div
       onClick={() => goToTop()}
       className="top-btn h-[55px] w-[55px] fixed bottom-[40px] right-[25px] rounded-full bg-purple-color
-     flex items-center justify-center cursor-pointer transition ease-in-out active:border-btn-pressed active:border-[3px] hover:bg-purple-color-hover"
+     flex items-center justify-center cursor-pointer z-[9] transition ease-in-out active:border-btn-pressed active:border-[3px] hover:bg-purple-color-hover"
     >
       <div className="top-btn_img">
         <svg

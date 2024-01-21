@@ -22,13 +22,11 @@ const Home = () => {
   return (
     <div className="home mt-160">
       <Header />
-      <div className="container mx-auto md:mx-auto ">
-        <Main />
-        <About />
-        <Feedback />
-        <Footer />
-        {showBtn && <ScrollToTop />}
-      </div>
+      <Main />
+      <About />
+      {showBtn && <ScrollToTop />}
+      <Feedback />
+      <Footer />
     </div>
   );
 };
