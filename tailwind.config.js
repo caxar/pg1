@@ -23,6 +23,7 @@ export const theme = {
     },
     backgroundImage: {
       hero: "url('/public/assets/background.png')",
+      "hero-mob": "url('/public/assets/background-mobile.png')",
       main: "url('/public/assets/top-bg.png')",
     },
   },
